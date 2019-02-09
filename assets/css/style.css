@@ -1,0 +1,140 @@
+
+#header{
+        font-family:'kanit', sans-serif;
+        text-align: center;
+        color: #ffffff;
+        
+}
+
+body {
+    background-image: url("KHback.jpg");
+    background-repeat: repeat;
+}
+
+.buttons {
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #666666;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.clickers {
+    max-width: 400px;
+    margin: auto;
+    margin-left: 225px;
+    
+}
+
+
+#Directions{
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    font-size: 25px;
+}
+
+#guessingWord{
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    font-size: 20px
+}
+
+
+#wins{
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+}
+
+#image1{
+    width: 450px;
+    height: 400px;
+    border-radius: 25px;
+    float: right;
+    margin-top: 30px;
+    margin-right: auto;
+    border: 5px solid black;
+    
+
+}
+
+#key{
+    width: 45%;
+    height:45%;
+    position: absolute;
+    left:-100px;
+    top: 200px;
+    transform: scaleX(-1)  rotate(70deg);
+    
+}
+#key2{
+    width: 45%;
+    height:45%;
+    position: absolute;
+    right:-100px;
+    top: 250px;
+    transform: scaleY(-1)  rotate(70deg);
+
+}
+
+#Guesses-left{
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
+    font-size: 20px;
+}
+
+#lettersGuessed{
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
+    font-size:20px;
+}
+
+
+.wrapper{
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.wrapper2{
+    position: absolute;
+    top: 250px;
+    border: dotted;
+    width: 250px;
+    text-align: center;
+    background-image: linear-gradient(#777777, black);
+    
+}
+
+
+#previousWord{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-image: radial-gradient(#777777, black); 
+    
+}
+
+html {
+    overflow: hidden;
+}

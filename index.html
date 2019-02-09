@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Kanit" rel="stylesheet">
+   
+
+    
+    <h1 id = "header"> Welcome to the Kingdom Hearts Word Guess Game</h1>
+    <img id ="key" src="assets/images/Keyblade.png">
+    <img id ="key2" src="assets/images/Keyblade.png">
+    <div class = "wrapper">
+</head>
+
+<body>
+
+        <audio loop id="KHaudio">
+                <source src="Dearly.mp3" type="audio/mpeg">
+        </audio>
+
+        <p class ="buttons"> Click to play a nice relaxing tune!</p>
+
+    <div class = "clickers">
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button onclick="pauseAudio()" type="button">Stop Audio</button>
+    </div>
+    <p id ="previousWord"></p>
+    <img id ="image1" src = "assets/images/logo.jpg" alt="logo">
+<div class = "wrapper2">
+<div>
+    <p id="Directions"> Press any key to get started!</p>
+    <p id ="guessingWord"></p>
+    <p id= "wins"></p>
+    <p id="Guesses-left"></p>
+    <p id ="lettersGuessed"></p>
+    
+
+    
+</div>
+</div>
+
+
+
+
+</body>
+
+</div>
+<script type="text/javascript" src="assets/game.js"></script>
+
+</html>
